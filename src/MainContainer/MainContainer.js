@@ -28,7 +28,7 @@ export default class MainContainer extends Component {
 
 render(){
 const newsList = this.state.news.map((news, index)=>{
-return <li key={index}>{news.description}</li>
+return <li key={index}>{news.title}</li>
 })
     return (
          <div className="NewsList">
